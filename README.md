@@ -23,6 +23,12 @@ Chemical format conversion and molecular data handling using the Pybel interface
 **C4 — Pymatgen**
 Materials science toolkit for crystal structures, file I/O, and materials analysis.
 
+**C5 — YAML**
+Human-readable configuration language for defining simulation inputs and workflow parameters.
+
+**C6 — TOML**
+Minimal and structured configuration format for managing project settings and outputs.
+
 ---
 
 ## Purpose

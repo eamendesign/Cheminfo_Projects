@@ -1,0 +1,13 @@
+# config.toml
+
+[system]
+polymer = "polyethylene"
+chain_length = 50
+
+[simulation]
+method = "MD"
+temperature = 300
+pressure = 1.0
+
+[forcefield]
+type = "GAFF2"

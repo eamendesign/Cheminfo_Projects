@@ -1,0 +1,17 @@
+# config.yaml
+system:
+  polymer: polyethylene
+  chain_length: 50   # nm
+  monomer_smiles: "CC"
+
+simulation:
+  method: MD
+  temperature: 300
+  pressure: 1.0
+
+forcefield:
+  type: GAFF2
+
+output:
+  save_xyz: true
+  save_log: true

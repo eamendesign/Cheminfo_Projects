@@ -1,0 +1,18 @@
+
+system:
+  name: Cu_bulk
+  lattice_constant: 3.6
+  supercell: [2, 2, 2]
+  pbc: [true, true, true]
+
+optimization:
+  fmax: 0.02
+  steps: 100
+  trajectory: opt.traj
+
+md:
+  temperature_K: 300
+  timestep_fs: 1.0
+  steps: 200
+  trajectory: md.traj
+  log_interval: 10

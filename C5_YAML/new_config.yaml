@@ -1,0 +1,5 @@
+simulation:
+  temperature: 500
+system:
+  chain_length: 100
+  polymer: PTFE
